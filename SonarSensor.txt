@@ -1,0 +1,24 @@
+Sonar (Ultrasonic) Sensor
+
+This Arduino code demonstrates the usage of a sonar (ultrasonic) sensor to measure distance by emitting ultrasonic waves and measuring the time it takes for the waves to bounce back from obstacles.
+
+Components Required:
+- Arduino board
+- Ultrasonic (Sonar) sensor
+- Optional: LED, buzzer, or motor for indicating proximity or distance
+
+Wiring:
+- Connect the trig pin of the sonar sensor to a digital pin on the Arduino for sending trigger signals.
+- Connect the echo pin of the sonar sensor to another digital pin on the Arduino for receiving echo signals.
+- Connect additional components (LED, buzzer, motor) to indicate proximity or distance as desired.
+
+Instructions:
+1. Upload the code to your Arduino board.
+2. Adjust the threshold distance or sensitivity settings in the code as needed.
+3. Connect the sonar sensor and any additional components according to the wiring instructions.
+4. Power up your Arduino board.
+5. Observe the behavior of the sonar sensor and the connected components as objects or obstacles are detected within its sensing range.
+
+Note: 
+- Ensure that the code and wiring are configured correctly to match the specifications of your sonar sensor module.
+- Customize the code to perform specific actions (e.g., activate an alarm, stop a motor) based on the measured distance and the requirements of your project.
